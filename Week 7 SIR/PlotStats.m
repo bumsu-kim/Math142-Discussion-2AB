@@ -1,5 +1,5 @@
 %% load data
-fname = 'output_N_1000000_I0_0.0001_timeUnit_0.5_gamma_0.166667_avgContact_2_TransmitChance_0.125_time_period_150.csv';
+fname = 'C:\Users\Bumsu\source\repos\JustForTest\x64\Release\output_N_1000000_I0_0.0001_timeUnit_1_gamma_0.333333_avgContact_4_TransmitChance_0.125_time_period_150.csv';
 dat = readmatrix(fname); % skips the header (1st row)
 
 EpidemicEnd = find(dat(:,3)==0, 1, 'first');
